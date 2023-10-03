@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{90bba4ba-f318-97e3-367e-85f9cd39f174}</ProjectGuid>
+    <ProjectGuid>{608e7fae-9c1f-ba39-164f-86d724be8de4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Unity.Performance.Profile-Analyzer.Editor</AssemblyName>
+    <AssemblyName>Unity.Services.Core.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2022_1_23;UNITY_2022_1;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_QUERY_BUILDER;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2022_1_23;UNITY_2022_1;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_QUERY_BUILDER;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_OPERATE_SERVICE_ENABLED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -36,43 +36,87 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\Analytics.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ThreadSelectionWindow.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ThreadData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ProfilerWindowInterface.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\DepthSliceUI.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ProfileTable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ThreadFrameTime.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\Localisation.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\TopMarkers.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ProfileAnalyzerExportWindow.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ProfileAnalyzer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ThreadSelection.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\AssemblyInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\TimingOptions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ProgressBarDisplay.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ComparisonTable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\MarkerData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\FakeScopedMarker.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\Draw2D.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\TopMarkerList.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\BoxAndWhiskerPlot.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\FrameSummary.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\MarkerColumnFilter.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ProfileDataView.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ThreadIdentifier.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\FrameTime.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\FrameTimeGraph.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\Units.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ProfileAnalyzerWindow.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\Histogram.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ProfileData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\Columns.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\DepthSliceDropdown.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\MarkerPairing.cs" />
-     <Compile Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ProfileAnalysis.cs" />
-     <None Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\Unity.Performance.Profile-Analyzer.Editor.asmdef" />
-     <None Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1\Editor\ProfileAnalyzerShader.shader" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\ProjectBindRedirectContentUI.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectStateManagement\ProjectStateRequest.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectStateManagement\ServiceFlagRequest.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\EditorGameServiceRegistry.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Utils\PackageInfoNameComparer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectStateManagement\ProjectStateHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\ServiceInstallationListener.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\EditorGameServiceFlagEnabler.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\IProjectEditorDrawerFactory.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\VisualElementHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\BackendHelpers\JsonHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectStateManagement\IProjectStateHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UserRoleManagement\UserRole.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\SettingsCommonHeaderUiHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\SliderToggleUiHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\EditorGameServiceSettingsProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\IEditorGameServiceIdentifier.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\IEditorGameService.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\LoggedOutUiHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Networking\ProductionTokenExchangeUrls.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\Analytics\EditorGameServiceAnalyticsSender.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Networking\StagingTokenExchangeUrls.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectStateManagement\ProjectState.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\CloudEnvironment\CloudEnvironmentConfigProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\PlatformSupportUiHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Networking\ITokenExchangeUrls.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\ProjectBindRedirectPopupUI.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectStateManagement\IServiceFlagRequest.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UserRoleManagement\IUserRoleHandler.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\ServiceFlagEndpoint.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Utils\OrganizationHandler\IOrganizationHandler.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectStateManagement\IProjectStateRequest.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\Analytics\EditorGameServiceAnalyticsRegistrant.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\ProjectBindRedirectPopupWindow.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Utils\OrganizationHandler\OrganizationProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\ExceptionHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UserRoleManagement\IUserRoleRequest.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Utils\OrganizationHandler\OrganizationHandler.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\IEditorGameServiceEnabler.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\Analytics\IEditorAnalyticsEventRegistrant.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UserRoleManagement\UserRoleHandler.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\OfflineUiHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Telemetry\OperatePackageVersionConfigProvider.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\DefaultCdnConfiguredEndpoint.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\AccessTokenErrorUiHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\EditorGameServiceDashboardHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\UserRoleRequestUiHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UserRoleManagement\UserRoleRequest.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\Analytics\IEditorGameServiceAnalyticsSender.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\IEditorGameServiceRegistry.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\BackendHelpers\UnityWebRequestHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Build\ProjectUnlinkBuildWarning.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\ProjectBindRedirectProjectSettingsUi.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Utils\AccessTokens.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Networking\TokenExchange.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\ProjectBindRedirectUiConstants.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\EditorGameServiceRemoteConfiguration.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Telemetry\PackageConfig.cs" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\UXML\ExceptionVisual.uxml" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\UXML\ProjectBindRedirectContent.uxml" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\USS\PlatformSupportVisualDark.uss" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\USS\ProjectBindRedirectProjectSettings.uss" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\USS\PlatformSupportVisualLight.uss" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\UXML\PleaseWait.uxml" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\UXML\ProjectBindRedirectProjectSettings.uxml" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\USS\ProjectBindRedirectPopupCommon.uss" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\UXML\ProjectSettingsCommonHeader.uxml" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\USS\SliderToggleCommon.uss" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\USS\PlatformSupportVisualCommon.uss" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\USS\ProjectBindRedirectPopupDark.uss" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\USS\ServicesProjectSettingsCommon.uss" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\UXML\AccessTokenError.uxml" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\USS\ServicesProjectSettingsLight.uss" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\Unity.Services.Core.Editor.asmdef" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\USS\ProjectBindRedirectPopupLight.uss" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\ProjectBindRedirect\UXML\ProjectBindRedirectPopup.uxml" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\EditorGameService\USS\ServicesProjectSettingsDark.uss" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\UXML\LoggedOut.uxml" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\UXML\PlatformSupportVisual.uxml" />
+     <None Include="Library\PackageCache\com.unity.services.core@1.6.0\Editor\Core\UiHelpers\UXML\Offline.uxml" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2022.1.23f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -750,6 +794,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{139729e5-c673-f9eb-7e39-ad59be86988f}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Networking.csproj">
+      <Project>{0f23e602-f88d-47a7-9d68-99a67b8d108f}</Project>
+      <Name>Unity.Services.Core.Networking</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Internal.csproj">
+      <Project>{6d7221f2-4847-2b12-df07-0796910bd797}</Project>
+      <Name>Unity.Services.Core.Internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Configuration.Editor.csproj">
+      <Project>{d8443acc-4839-62ba-9414-e59f62023b4d}</Project>
+      <Name>Unity.Services.Core.Configuration.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Telemetry.csproj">
+      <Project>{3f0e3e00-7d91-7224-3455-4a3d9b9a2f82}</Project>
+      <Name>Unity.Services.Core.Telemetry</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Registration.csproj">
+      <Project>{84f75bd7-16e0-6264-f509-d0cd8f5276eb}</Project>
+      <Name>Unity.Services.Core.Registration</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{45e765e1-2b58-bf53-55c4-4cc1f46d25fe}</Project>
       <Name>UnityEditor.UI</Name>
