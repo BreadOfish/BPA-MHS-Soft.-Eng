@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{a6686390-3609-4fe6-88bd-b47372fff933}</ProjectGuid>
+    <ProjectGuid>{a13ea23f-93e8-7352-a5d4-ba1f49ce9b93}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Unity.Timeline</AssemblyName>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2022_1_23;UNITY_2022_1;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_QUERY_BUILDER;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TIMELINE_FRAMEACCURATE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2022_1_23;UNITY_2022_1;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_QUERY_BUILDER;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -36,80 +36,28 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Events\Signals\SignalAsset.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Events\Signals\CustomSignalEventDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\FrameRate.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Animation\AnimationPreviewUpdateCallback.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\TimelinePlayable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\IPropertyPreview.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\ClipCaps.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\TimelineAsset_CreateRemove.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\IPropertyCollector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Attributes\TimelineHelpURLAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Audio\AudioTrack.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\TimelineAsset.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Playables\DirectorControlPlayable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\AnimationPreviewUtilities.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Events\INotificationOptionProvider.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\TimelineCreateUtilities.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\HashUtility.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Evaluation\RuntimeClip.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Animation\ICurvesOwner.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\AssetUpgrade\TrackUpgrade.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Animation\AnimationTrack.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Extensions\TrackExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Activation\ActivationTrack.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Activation\ActivationMixerPlayable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Playables\PrefabControlPlayable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Events\Signals\SignalReceiver.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Control\ControlPlayableAsset.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\ILayerable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\TimelineClip.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Animation\AnimationOutputWeightProcessor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Events\Marker.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\DiscreteTime.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Playables\TimeNotificationBehaviour.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Attributes\TrackColorAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\AssetUpgrade\TimelineUpgrade.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\AssetUpgrade\ClipUpgrade.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Evaluation\ScheduleRuntimeClip.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\AnimatorBindingCache.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Activation\ActivationPlayableAsset.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\TimelineClipExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Events\MarkerList.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\TimelineUndo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Playables\ParticleControlPlayable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Animation\AnimationPlayableAsset.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Evaluation\RuntimeElement.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\GroupTrack.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Properties\AssemblyInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\AssetUpgrade\AnimationPlayableAssetUpgrade.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Events\IMarker.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Evaluation\RuntimeClipBase.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Events\MarkerTrack.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Timeline.deprecated.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Evaluation\InfiniteRuntimeClip.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Playables\ITimeControl.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\NotificationUtilities.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\WeightUtility.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\TrackAsset.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\TimeUtility.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Scripting\PlayableTrack.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Audio\AudioClipProperties.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Playables\BasicScriptPlayable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Audio\AudioPlayableAsset.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Evaluation\IntervalTree.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Playables\NotificationFlags.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Events\SignalTrack.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\TimelineAttributes.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Control\ControlTrack.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Audio\AudioMixerProperties.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\AssetUpgrade\AnimationTrackUpgrade.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Playables\ActivationControlPlayable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Events\Signals\SignalEmitter.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Playables\TimeControlPlayable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Utilities\Extrapolation.cs" />
-     <None Include="Library\PackageCache\com.unity.timeline@1.7.2\Runtime\Unity.Timeline.asmdef" />
+     <Compile Include="Assets\code\Camera\CameraSys.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2022.1.23f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -358,36 +306,6 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>D:\Unity\2022.1.23f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Graphs">
-        <HintPath>D:\Unity\2022.1.23f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-        <HintPath>D:\Unity\2022.1.23f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-        <HintPath>D:\Unity\2022.1.23f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>E:\Unitystuff\BPA2\Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>E:\Unitystuff\BPA2\Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>E:\Unitystuff\BPA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-        <HintPath>E:\Unitystuff\BPA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>E:\Unitystuff\BPA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-        <HintPath>E:\Unitystuff\BPA2\Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>E:\Unitystuff\BPA2\Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>E:\Unitystuff\BPA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -772,13 +690,121 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
+      <Project>{f23e5763-64b9-7ace-4bba-55d22424008c}</Project>
+      <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{bb1f50b3-b97f-6039-1776-0fe9bf58f931}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{6b85f287-3396-0577-164b-cafd8ce9857a}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
+      <Project>{90bba4ba-f318-97e3-367e-85f9cd39f174}</Project>
+      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
+      <Project>{73d54196-72ba-222b-bd24-b2c75bcd13bb}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{b1dbbcfa-1c7a-6dd5-bc30-a8d3d30194af}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{a6686390-3609-4fe6-88bd-b47372fff933}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{2a89955f-8c2e-3f9d-260c-ffaa81971207}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{8d7ea46b-5c33-a1b5-de3e-5e1b3c0089e1}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{fc4358b7-f5f3-1e16-8acb-1509fd298d16}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{67a340c1-5c03-0f60-c7c8-0d0d4b6b008f}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{9a612613-7ba6-013e-2afc-950206015cdb}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{0391b28d-b908-2055-b355-3ec27e3bdd98}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{ad29bc79-d06c-baab-a995-fc0d59857eaf}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{45e765e1-2b58-bf53-55c4-4cc1f46d25fe}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{45fd19e1-8bc7-dba8-ec1d-28b25ea6c53f}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{104a8e02-f63c-a1ea-519c-2d78864835df}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{2cc4ad70-7311-a556-b3c7-471527290f07}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{139729e5-c673-f9eb-7e39-ad59be86988f}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{92ed814d-ca2d-eae3-d5d6-4a4a9f82403b}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
+      <Project>{2e5ecda8-cec0-293d-42e1-d083085e02c3}</Project>
+      <Name>Unity.EditorCoroutines.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{8ffd9ac8-271e-0216-bf1b-27b315d7e034}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
+      <Project>{f4bfd145-16be-e65e-6d59-4448790e9986}</Project>
+      <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{0748e919-2e60-0cf6-4602-1f81aa6484fe}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{a727d6e7-6d00-d15b-6bbf-ca96bec64fa7}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
+      <Project>{dcd77c43-0a1f-4a8a-00ad-907d405bc2aa}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{acbcce70-b078-e3e3-bb85-dc22e44f7b5e}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{9baf3f1e-ea74-cb84-e2ea-f981ba26f504}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{b49acc7e-dabd-4aea-78ba-8654690a6198}</Project>
+      <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
